@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;1,500&family=Lobster&family=Pacifico&family=Poppins:wght@500&family=Roboto:wght@300&family=Ubuntu:wght@500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -32,21 +33,25 @@ body {
     filter: drop-shadow(2px 2px 4px black);
     border-radius: 4rem;
 }
-span img{
+
+span img {
     width: 22rem;
     filter: drop-shadow(2px 4px 6px black);
 }
-.fade{
+
+.fade {
     opacity: 1;
     transition: opacity 2s;
 }
-p{
+
+p {
     color: white;
     font-size: 2rem;
     text-align: center;
     opacity: 0;
 }
-button{
+
+button {
     padding: 1rem;
     font-size: 1.4rem;
     font-weight: 600;
@@ -60,11 +65,30 @@ button{
 }
 
 @media (max-width:520px) and (min-width:250px) {
-    html{
+    html {
         font-size: 5px;
     }
-    .wrapper{
+
+    body {
+        height: 131rem;
+    }
+
+    .wrapper {
         height: 97rem;
-        margin-top: 49rem;
+        gap: 5rem;
+    }
+
+    p {
+        font-size: 3.3rem;
+    }
+
+    button {
+        padding: 2rem;
+        font-size: 2.4rem;
+        border-radius: 2rem;
+    }
+
+    span img {
+        width: 31rem;
     }
 }
